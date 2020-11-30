@@ -4,7 +4,7 @@
 
 https://qiita.com/Gushi_maru/items/ee434b5bc9f020c8feb6
 
-## 2. 
+## 2. normalizeNumexp
 
 + python2のインストール
 
@@ -82,10 +82,33 @@ options:
 + pficommonをインストール
 
 ```
+cd ..
 git clone https://github.com/pfi/pficommon.git
 cd pficommon
 ./waf configure
 ./waf
 sudo ./waf install
 ```
+
+怪しい...
+
+```
+Checking for header msgpack.hpp          : not found
+Checking for header fcgiapp.h            : not found
+Checking for header stdint.h             : yes
+Checking for ''                          : not found
+```
+
++ normalizeNumexpをインストール
+
+```
+cd ..
+git clone https://github.com/nullnull/normalizeNumexp.git
+cd normalizeNumexp
+./waf configure
+./waf 
+sudo ./waf install
+```
+
+おけけ
 
