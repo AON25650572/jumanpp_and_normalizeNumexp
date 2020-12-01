@@ -7,6 +7,7 @@ https://qiita.com/Gushi_maru/items/ee434b5bc9f020c8feb6
 ## 2. normalizeNumexp
 
 + python2のインストール
+
 python2系でしかwafは走らない
 
 ```
