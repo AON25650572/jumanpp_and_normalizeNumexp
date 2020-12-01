@@ -9,7 +9,7 @@ https://qiita.com/Gushi_maru/items/ee434b5bc9f020c8feb6
 + python2のインストール
 
 ```
-sudo apt-get install python3
+sudo apt-get install python2
 ```
 
 + python リンクづくり
