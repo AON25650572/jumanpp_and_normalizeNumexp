@@ -57,12 +57,7 @@ ux: error while loading shared libraries: libux.so: cannot open shared object fi
 共有ライブラリに登録（パス通し）してあげる
 
 ```
-sudo nano /etc/ld.so.conf
-```
-
-「~/normalizeNumexp_install/ux-0.1.9/build/src/libux.so」を追記して保存
-
-```
+sudo echo ~/normalizeNumexp_install/ux-0.1.9/build/src/libux.so >> /etc/ld.so.conf
 sudo ldconfig
 ```
 
