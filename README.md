@@ -11,8 +11,7 @@ https://qiita.com/Gushi_maru/items/ee434b5bc9f020c8feb6
 python2系でしかwafは走らない
 
 ```
-conda create -n p2 python=2.7
-conda activate p2
+sudo apt install python2
 ```
 
 + python リンクづくり
