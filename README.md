@@ -107,5 +107,13 @@ cd normalizeNumexp
 sudo ./waf install
 ```
 
+最後に共有ライブラリに```libnormalize_numexp.so```ファイルをパス通しする
+
+```
+sudo /etc/ld.so.conf
+```
+
+とかでテキスト編集を開いて```~/normalizeNumexp_install/normalizeNumexp/build/src/libnormalize_numexp.so```とかのパスを追加する。
+
 おけけ
 
